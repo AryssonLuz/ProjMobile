@@ -7,4 +7,32 @@
     android:layout_height="match_parent"
     tools:context=".Tela4">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+        Bem... Vamos esquecer que um certo alguem acabou\n
+        de errar uma conta de 1+1, eventualmente a FBI ir\n
+        ira investigar isso 😑\n\n
+        Continuando, iremos agora para banco de dados,\n
+        nessa brincadeira iremos criar um banco, porfavor,\n
+        clique no botão abaixo:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.068" />
+
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Criador de banco de dados"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
