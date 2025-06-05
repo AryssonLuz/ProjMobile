@@ -13,7 +13,7 @@
         android:text="
         Seja Bem vindo ao projeto-eto!!!\n\n
         Ele será um app interativo para revisar\n
-        que eu aprendi durante a aula do incrivel\n
+        que aprendemos durante a aula do incrivel\n
         Leandro, ele é muito bom, papo reto!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

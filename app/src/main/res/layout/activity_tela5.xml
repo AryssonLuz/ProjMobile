@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID (somente para atualizar/excluir)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Idade"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefone"
+        android:inputType="phone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salvar" />
+
+        <Button
+            android:id="@+id/btnAtualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atualizar"
+            android:layout_marginStart="8dp" />
+
+        <Button
+            android:id="@+id/btnExcluir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Excluir"
+            android:layout_marginStart="8dp" />
+
+        <Button
+            android:id="@+id/btnListar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Listar"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listaView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
