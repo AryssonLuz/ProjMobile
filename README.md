@@ -67,14 +67,16 @@ ProjMobile/
 
 4. Execute o projeto clicando em Run ▶️.
 
-📌 Requisitos
+## 📌 Requisitos
+
 Android Studio Flamingo ou superior
 
 SDK Android 21+
 
 Dispositivo ou emulador com Android 5.0 (Lollipop) ou superior
 
-📖 Licença
+## 📖 Licença
+
 Este projeto é de uso educacional. Sinta-se à vontade para modificar e utilizar conforme necessário.
 
 Desenvolvido por Arysson Luz 📚
