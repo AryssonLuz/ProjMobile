@@ -31,16 +31,27 @@ Aplicativo Android simples desenvolvido em Kotlin, com funcionalidades básicas 
 
 ## 📂 Organização do Projeto
 ProjMobile/
+
 ├── app/
+
 │ ├── src/
+
 │ │ ├── main/
+
 │ │ │ ├── java/com/example/myapplication/
+
 │ │ │ │ ├── DBHelper.kt
+
 │ │ │ │ ├── Tela1.kt … Tela6.kt
+
 │ │ │ ├── res/
+
 │ │ │ │ ├── layout/
+
 │ │ │ │ │ ├── activity_tela1.xml … activity_tela6.xml
+
 │ │ │ │ ├── mipmap/
+
 │ │ │ │ │ ├── nota10.png, nota0.png, absolute.png, etc.
 
 
