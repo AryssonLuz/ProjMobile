@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp">
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:text="Teste todos os botões 🤓☝️"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.579" />
 
     <EditText
         android:id="@+id/editId"
@@ -34,6 +47,18 @@
         android:layout_height="wrap_content"
         android:hint="Telefone"
         android:inputType="phone" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="E para finalizar!"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.481" />
 
     <LinearLayout
         android:layout_width="match_parent"

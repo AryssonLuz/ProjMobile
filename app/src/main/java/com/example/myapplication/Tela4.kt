@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 class Tela4 : AppCompatActivity() {
@@ -16,6 +17,7 @@ class Tela4 : AppCompatActivity() {
     private lateinit var botao1: Button
     private lateinit var botao2: Button
     private lateinit var botao3: Button
+    private lateinit var texto: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,6 +31,8 @@ class Tela4 : AppCompatActivity() {
         botao1 = findViewById(R.id.botaoBrincadeira1)
         botao2 = findViewById(R.id.botaoBrincadeira2)
         botao3 = findViewById(R.id.botaoBrincadeira3)
+
+        texto = findViewById(R.id.text5)
 
         botaoBanco.setOnClickListener {
             imagem1.visibility = View.VISIBLE
@@ -46,6 +50,7 @@ class Tela4 : AppCompatActivity() {
             imagem3.visibility = View.VISIBLE
             botao3.visibility = View.VISIBLE
             botao2.visibility = View.GONE
+            texto.visibility = View.VISIBLE
         }
 
         botao3.setOnClickListener {

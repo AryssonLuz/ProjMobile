@@ -1,98 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Tela4">
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Tela4">
 
-    <TextView
-        android:id="@+id/textoPrincipal"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Bem... Vamos esquecer que um certo alguem acabou\nde errar uma conta tão simples usando a calculadora\nEventualmente a FBI irá investigar isso 😑\n\nContinuando, iremos agora para banco de dados,\nnesta brincadeira iremos criar um banco, por favor,\nclique no botão abaixo:"
-        android:textAlignment="center"
-        android:textSize="16sp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:padding="16dp" />
+        <TextView
+            android:id="@+id/textoPrincipal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Bem... Vamos esquecer que um certo alguem acabou\nde errar uma conta tão simples usando a calculadora.\nEventualmente a FBI irá investigar isso 😑\n\nContinuando, iremos agora para banco de dados,\nnesta brincadeira iremos criar um banco, por favor,\nclique no botão abaixo:"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:padding="16dp" />
 
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Criador de banco de dados"
-        app:layout_constraintTop_toBottomOf="@id/textoPrincipal"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="12dp" />
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Criador de banco de dados"
+            app:layout_constraintTop_toBottomOf="@id/textoPrincipal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="12dp" />
 
-    <ImageView
-        android:id="@+id/dados1"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:visibility="gone"
-        app:srcCompat="@mipmap/banco_de_dados"
-        app:layout_constraintTop_toBottomOf="@id/button8"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp" />
+        <ImageView
+            android:id="@+id/dados1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:visibility="gone"
+            app:srcCompat="@mipmap/banco_de_dados"
+            app:layout_constraintTop_toBottomOf="@id/button8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp" />
 
-    <Button
-        android:id="@+id/botaoBrincadeira1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="É brincadeira, agora é sério"
-        android:visibility="gone"
-        app:layout_constraintTop_toBottomOf="@id/dados1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="12dp" />
+        <Button
+            android:id="@+id/botaoBrincadeira1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="É brincadeira, agora é sério"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@id/dados1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="12dp" />
 
-    <ImageView
-        android:id="@+id/dados2"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:visibility="gone"
-        app:srcCompat="@mipmap/banco_de_dados2"
-        app:layout_constraintTop_toBottomOf="@id/botaoBrincadeira1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp" />
+        <ImageView
+            android:id="@+id/dados2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:visibility="gone"
+            app:srcCompat="@mipmap/banco_de_dados2"
+            app:layout_constraintTop_toBottomOf="@id/botaoBrincadeira1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp" />
 
-    <Button
-        android:id="@+id/botaoBrincadeira2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Kkk tu é bobo, vai agora é sério"
-        android:visibility="gone"
-        app:layout_constraintTop_toBottomOf="@id/dados2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="12dp" />
+        <Button
+            android:id="@+id/botaoBrincadeira2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kkk tu é bobo, vai agora é sério"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@id/dados2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="12dp" />
 
-    <ImageView
-        android:id="@+id/dados3"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:visibility="gone"
-        app:srcCompat="@mipmap/banco_de_dados3"
-        app:layout_constraintTop_toBottomOf="@id/botaoBrincadeira2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp" />
+        <ImageView
+            android:id="@+id/dados3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:visibility="gone"
+            app:srcCompat="@mipmap/banco_de_dados3"
+            app:layout_constraintTop_toBottomOf="@id/botaoBrincadeira2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp" />
 
-    <Button
-        android:id="@+id/botaoBrincadeira3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="kkkkkkkkkkk tá, paramos. Agora é sério"
-        android:visibility="gone"
-        app:layout_constraintTop_toBottomOf="@id/dados3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="12dp" />
+        <Button
+            android:id="@+id/botaoBrincadeira3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kkkkkkkkkkk tá, paramos. Agora é sério"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@id/dados3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="12dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="78dp"
+            android:layout_height="19dp"
+            android:text="⬇️"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.801" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
