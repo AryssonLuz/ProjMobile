@@ -60,3 +60,21 @@ ProjMobile/
 1. Clone o repositório:
    ```bash
    git clone https://github.com/AryssonLuz/ProjMobile.git
+
+2. Abra o projeto no Android Studio.
+
+3. Conecte um dispositivo Android ou use um emulador.
+
+4. Execute o projeto clicando em Run ▶️.
+
+📌 Requisitos
+Android Studio Flamingo ou superior
+
+SDK Android 21+
+
+Dispositivo ou emulador com Android 5.0 (Lollipop) ou superior
+
+📖 Licença
+Este projeto é de uso educacional. Sinta-se à vontade para modificar e utilizar conforme necessário.
+
+Desenvolvido por Arysson Luz 📚
